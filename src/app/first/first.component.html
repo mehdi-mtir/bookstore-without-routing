@@ -1,0 +1,15 @@
+<h2>{{title}}</h2>
+<h3>1. Les expressions (interpolation)</h3>
+{{title}}
+{{1+2}} <br/>
+{{sayHello(2)}}
+
+<h3>2. Binding de propriété</h3>
+<img [src]="url" alt="logo angular" />
+
+<h3>3. Binding d'évènement</h3>
+<button (click)="changeLogo()">Changer le logo</button>
+
+
+<h3>4. Two-way data Binding</h3>
+<input type="text" [(ngModel)]="title" size="100" />
